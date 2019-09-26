@@ -1,18 +1,13 @@
 from mul import multiplication
 from sub import sub
 from add import add
-print("enter add mul sub 0 1 2")
-n = int(input())
-print("enter number")
 n1 = 8
 n2 = 10
-if n==0:
-    print(add(n1,n2))
-elif n==1:
-    print(mul(n1, n2))
-elif n==2:
-    print(sub(n1,n2))
-else:
-    pass
+print("Addition result of 8 and 10")
+print(add(n1,n2))
+print("Multiply result of 8 and 10")
+print(multiplication(n1, n2))
+print("Substraction result of 8 and 10")
+print(sub(n1,n2))
 
 #Implemented Driver function defination
