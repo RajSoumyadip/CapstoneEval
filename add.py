@@ -1,3 +1,3 @@
-//adding function to add two numbers
-def add(self,a,b):
+#adding function to add two numbers
+def add(a,b):
 	return a+b

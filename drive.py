@@ -1,4 +1,4 @@
-from mul import mul
+from mul import multiplication
 from sub import sub
 from add import add
 print("enter add mul sub 0 1 2")
